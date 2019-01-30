@@ -4,9 +4,9 @@ function distanceFromHqInBlocks(currentBlock) {
   let result;
   if (currentBlock > destinationBlock) {
     result = (destinationBlock - currentBlock);
-  else if (destinationBlock > currentBlock) {
+  } else if (destinationBlock > currentBlock) {
     result = (currentBlock - destinationBlock);
-  }
+  } else result = 0;
   }
   return result;
 }
