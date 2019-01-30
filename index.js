@@ -12,10 +12,16 @@ function distanceFromHqInBlocks(currentBlock) {
 }
 
 function distanceFromHqInFeet(blocks) {
+  let result;
   result = distanceFromHqInBlocks(blocks) * 264;
   return result;
 }
 
 function distanceTravelledInFeet(startPoint, endPoint) {
-  return (endPoint - startPoint) * 264;
+  let result;
+  result = (endPoint - startPoint) * 264;
+  if (result < 0) {
+    result = result * -1;
+  }
+  return result;
 }
