@@ -6,7 +6,6 @@ function distanceFromHqInBlocks(currentBlock) {
     result = (destinationBlock - currentBlock);
   } else if (destinationBlock > currentBlock) {
     result = (currentBlock - destinationBlock);
-  } else result = 0;
   }
   return result;
 }
