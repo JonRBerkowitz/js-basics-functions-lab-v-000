@@ -2,7 +2,7 @@
 function distanceFromHqInBlocks(currentBlock) {
   const destinationBlock = 42;
   let result;
-  if currentBlock > destinationBlock {
+  if (currentBlock > destinationBlock) {
     result = (destinationBlock - currentBlock);
   }
   return result;
