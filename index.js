@@ -1,4 +1,4 @@
 
-function distanceFromHqInBlocks (currentBlock) {
+function distanceFromHqInBlocks(currentBlock) {
 
 }
